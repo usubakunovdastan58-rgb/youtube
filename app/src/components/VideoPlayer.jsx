@@ -1,5 +1,5 @@
 const VideoPlayer = ({ videoUrl }) => {
-  // Функция для превращения обычной ссылки в ссылку для iframe
+  
   const getYoutubeId = (url) => {
     if (!url) return null;
     const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;

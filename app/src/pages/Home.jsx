@@ -1,7 +1,7 @@
 import CourseCard from '../components/CourseCard';
 
 const Home = () => {
-  // В будущем эти данные придут из Firebase через Акнура
+  
   const courses = [
     { id: 'react-01', title: 'React для новичков', description: 'Основы хуков и компонентов' },
     { id: 'firebase-02', title: 'Firebase + React', description: 'Учимся работать с БД Firestore' }
